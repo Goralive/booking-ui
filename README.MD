@@ -5,4 +5,4 @@ Test created for booking.com
 <br/>
 Open framework folder and type ./gradlew ui:test
 <br/>
-To see allure results type allure generate ui-test/build/allure-results -o <directory-with-report>
+To see allure results type allure generate ui-test/build/allure-results -o "add your directory with report"
