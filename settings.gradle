@@ -1,0 +1,5 @@
+rootProject.name = 'booking-java'
+include 'api-test'
+include 'ui-test'
+findProject(':ui-test')?.name = 'ui'
+
