@@ -15,8 +15,8 @@ public class BaseUITest {
         ProjectConfig config = ConfigFactory.create(ProjectConfig.class, System.getProperties());
         RestAssured.baseURI = config.baseUrl();
         Configuration.baseUrl = config.baseUrl();
-        Configuration.browser = "com.booking.ui.SelenoidDriverProvider";
-     //   Configuration.browser = "firefox";
+       // Configuration.browser = "com.booking.ui.SelenoidDriverProvider";
+        Configuration.browser = "firefox";
     }
 
     @AfterMethod

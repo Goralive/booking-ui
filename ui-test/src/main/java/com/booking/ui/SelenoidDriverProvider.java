@@ -20,7 +20,7 @@ public class SelenoidDriverProvider implements WebDriverProvider {
         browser.setCapability("enableVNC", true);
 
         try {
-            RemoteWebDriver driver = new RemoteWebDriver(URI.create("http://35.204.20.183:4444/wd/hub").toURL(),
+            RemoteWebDriver driver = new RemoteWebDriver(URI.create("Ask Igor or put IP here").toURL(),
                     browser);
             driver.manage().window().setSize(new Dimension(1200,1024));
             driver.setFileDetector(new LocalFileDetector());

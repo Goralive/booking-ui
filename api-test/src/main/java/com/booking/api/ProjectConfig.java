@@ -7,8 +7,4 @@ import org.aeonbits.owner.Config.Sources;
 public interface ProjectConfig extends Config {
     @Key("baseUrl")
     String baseUrl();
-    @DefaultValue("ru")
-    String locale();
-    @Key("logging")
-    boolean logging();
 }
